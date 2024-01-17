@@ -90,12 +90,136 @@ nav li a{
     background: rgba(255, 255, 255, 0.30);
     margin-left: 150px;
 }
+.popular-tour{
+    display: flex;
+    margin-top: 100px;
+}
+.popular{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.rec-4{
+    margin-right: 100px;
+}
+.heading{
+    color: #131318;;
+    font-size: 40px;
+    font-weight: 800;
+}
+.def{
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+    line-height: 26px;
+}
+.discs{
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+    line-height: 26px;
+}
+.destination{
+    text-align: center;
+    margin-top: 100px;
+}
+.choose{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.us{
+    margin-top: 100px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.service{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    
+}
+.hotel img{
+    display: flex;
+    width: 64px;
+    height: 64px;
+    padding-left: 20px;
+}
+.h-heading{
+    padding-left: 20px;
+    display: flex;
+    color: #131318;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+}
+.h-des{
+    color: #5A5A5D;
+    font-weight: 400;
+    line-height: 26px;
+}
+.service-2{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.service-3{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-left: 650px;
+    margin-top: 50px;
 
+}
+.dis-des{
+    margin-top: 100px;
+    position: absolute;
+}
+.d{
+    width: 500px;
+    height: 284px;
+    border-radius: 16px;
+    margin-top: 200px;
+    margin-left: 500px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.e{
+    padding-left: 50px;
+}
+.about-package{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+.satorini{
+    font-size: 24px;
+    font-weight: 800;
+}
+.discount{
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+}
 @media screen and (max-width: 576px) {
     header{
         padding: 50px ;
     }
-    nav,.button,.banner-description,.banner-description
+    nav,.button,.banner-description,.popular-tour,.cards,.service-3,.discount,.dis-des
     {
         flex-direction: column;
     }
@@ -126,7 +250,7 @@ nav li a{
     header{
 
     }
-nav,.banner,.banner-content
+nav,.banner,.banner-content,.popular-tour,.cards,.service-3,.discount,.dis-des
     {
         flex-direction: column;
     }
@@ -138,5 +262,14 @@ nav,.banner,.banner-content
     }
     .button{
         width: 700px;
+    }
+    .popular-tour{
+        margin-left: 0px;
+    }
+    .service-3{
+        margin: 0px;
+    }
+    .discount,.d{
+        margin-top: 30px;
     }
 }
