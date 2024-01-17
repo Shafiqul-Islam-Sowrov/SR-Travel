@@ -252,11 +252,33 @@ nav li a{
     color: white;
     margin-top: 15px;
 }
+.end{
+    width: 1900px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+    border: 2px solid rgba(19, 19, 24, 0.05);
+}
+footer{
+    display: flex;
+}
+.end{
+    text-align: center;
+    padding-top: 100px;
+}
+.line{
+    width: 1000px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+.copyright{
+    padding-top: 100px;
+}
 @media screen and (max-width: 576px) {
     header{
         padding: 50px ;
     }
-    nav,.button,.banner-description,.popular-tour,.cards,.service-3,.discount,.dis-des,.perfact-place,.newslatter
+    nav,.button,.banner-description,.popular-tour,.cards,.service-3,.discount,.dis-des,.perfact-place,.newslatter,.end,footer
     {
         flex-direction: column;
     }
@@ -290,7 +312,7 @@ nav li a{
     header{
 
     }
-nav,.banner,.banner-content,.popular-tour,.cards,.service-3,.discount,.dis-des,.perfact-place,.newslatter
+nav,.banner,.banner-content,.popular-tour,.cards,.service-3,.discount,.dis-des,.perfact-place,.newslatter,.end
     {
         flex-direction: column;
     }
