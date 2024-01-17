@@ -1,0 +1,142 @@
+*{
+    font-family: Mulish;
+}
+.btn-primary{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border-color:#FF5400 ;
+}
+header{
+    background-color: white;
+    padding : 30px 100px;
+}
+.nav-tag{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+    margin-left: 20px;
+}
+.travel{
+    color: #FF5400;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    align-self: center;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: #131318;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 48px;
+    margin-top: 35px;
+}
+.banner{
+    display: flex;
+    width: 1200px;
+    height: 500px;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    margin-left: 300px;
+}
+.banner-content{
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    width: 100%;
+}
+.btn-opt{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+}
+.banner-heading{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+}
+.banner-description{
+    display: flex;
+    color: #FFF;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 150px;
+}
+.button{
+    display: inline-flex;
+    padding: 50px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-left: 150px;
+}
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 50px ;
+    }
+    nav,.button,.banner-description,.banner-description
+    {
+        flex-direction: column;
+    }
+    .banner{
+        width: 400px;
+        height: 700px;
+    }
+    .banner-heading{
+        color: #FFF;
+    font-size: 22px;
+    font-weight: 800;
+    }
+    .banner-description{
+        font-size: 14px;
+    }
+    .btn-opt{
+        width: 100px;
+        height: 52px;
+    }
+    .btn-primary{
+        width: 100px;
+        height: 52px;
+
+    }
+
+}
+@media screen and (min-width: 576px) and (max-width: 900px) {
+    header{
+
+    }
+nav,.banner,.banner-content
+    {
+        flex-direction: column;
+    }
+    .banner-description{
+        margin-left: 150px;
+    }
+    .banner{
+        width: 900px;
+    }
+    .button{
+        width: 700px;
+    }
+}
